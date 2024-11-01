@@ -16,8 +16,8 @@ def play_music(music_file, duration):
 
 def shutdown_computer():
    
-    print("Yes shit, yes thank you so much, thank you...")
-    time.sleep(5)
+    print("Thank you...")
+    time.sleep(3)
 
    
     if platform.system() == "Windows":
@@ -29,8 +29,10 @@ def shutdown_computer():
 
 def main():
     music_file = "yestks.mp3"  
-    play_duration = 9  
-    print("Tocando a música...")
+    play_duration = 7
+    print("")
+    print("===============================")
+    print("Yes shit, yes thank you so much")
     play_music(music_file, play_duration)  
 
     
